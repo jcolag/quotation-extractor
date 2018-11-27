@@ -27,4 +27,10 @@ books.forEach(book => {
   }).on('error', (ex) => {
     console.log(`Error: ${ex.message}`);
   });
+
+  // Busy-waiting is dumb, but for a one-off script that wants to
+  // avoid hammering Project Gutenberg's servers, it's sufficient
+  // to handle the rate-limiting.
+  let until = new Date(new Date().getTime() + 2500);
+  while (until > new Date()) {}
 });
