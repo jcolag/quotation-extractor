@@ -17,5 +17,7 @@ The bulk of this, certainly the easiest to automate, will involve downloading bo
 },
 ```
 
+Plus, of course, a file for authors and a file for the various sources.
+
 I will publish the final collection of quotations when it starts shaping up.
 
