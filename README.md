@@ -19,5 +19,7 @@ The bulk of this, certainly the easiest to automate, will involve downloading bo
 
 Plus, of course, a file for authors and a file for the various sources.
 
+At the moment, the plan is to have a download script to grab the correct e-book files from Project Gutenberg, then a script to scrape each e-book for the quotes, with a final script to combine the results with any hand-curated items.
+
 I will publish the final collection of quotations when it starts shaping up.
 
