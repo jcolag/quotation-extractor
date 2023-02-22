@@ -16,7 +16,7 @@ let size = quote.text.length + author.name.length + 1;
 
 console.log(quote.text);
 if (quote.text.indexOf('[') >= 0) {
-  const fn = quote.footnotes.join('\n');
+  const fn = quote.footnotes ? quote.footnotes.join('\n') : '';
   console.log(fn);
   size += fn.length + 1;
 }
